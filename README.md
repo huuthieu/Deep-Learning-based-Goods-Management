@@ -12,7 +12,7 @@ and barcodes thus allowing inventory management, empty
 shelves and mispricing detection, etc. 
 
 
-# Requirements
+### Requirements
 ```
 Tensorflow 1.14
 Python 3.6
@@ -21,12 +21,12 @@ OpenCV
 PySimpleGUI
 ```
 
-# Dataset
+### Dataset
 The system was trained
 on our own dataset (object detection, 16 classes, using
 transfer training) and the SVHN dataset (digit recognition).
 
-## Results
+### Results
 
 Experiment results show that the system works well with
 92.81% mAP (mean Average Precision) for object detection
