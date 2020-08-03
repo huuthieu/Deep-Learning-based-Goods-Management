@@ -11,9 +11,23 @@ cans, bottles, bags, etc. as well as their corresponding prices
 and barcodes thus allowing inventory management, empty
 shelves and mispricing detection, etc. 
 
+
+# Requirements
+```
+Tensorflow 1.14
+Python 3.6
+Numpy
+OpenCV
+PySimpleGUI
+```
+
+# Dataset
 The system was trained
 on our own dataset (object detection, 16 classes, using
 transfer training) and the SVHN dataset (digit recognition).
+
+## Results
+
 Experiment results show that the system works well with
 92.81% mAP (mean Average Precision) for object detection
 and 92.28% of accuracy for digit recognition.
